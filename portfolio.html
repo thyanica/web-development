@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="icon" href="profile.jpg">
+
+<style>
+mark{
+background:beige;
+}
+</style>
+
+<script>
+function welcome(){
+alert("Welcome to My Portfolio");
+}
+</script>
+
+</head>
+
+<body onload="welcome()">
+
+<header>
+<h1>
+    <span style="background:burlywood;font-weight:bold;">My Portfolio</span>
+</h1>
+
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+
+<section id="home">
+<h2>Home</h2>
+
+<article>
+
+<h3>Hello, I'm Thyanica/h3>
+
+<p>
+I am a <mark>Web Developer</mark> passionate about creating websites using HTML, CSS and JavaScript.
+</p>
+
+<button>Download Resume</button>
+
+</article>
+
+</section>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+I enjoy coding and learning new technologies.
+</p>
+
+<details>
+<summary>More About Me</summary>
+<p>I love programming, UI design, and problem solving.</p>
+</details>
+
+<blockquote>
+"Success comes from continuous learning."
+</blockquote>
+
+</section>
+
+<section id="education">
+
+<h2>Education</h2>
+
+<table>
+
+<tr>
+<th>Course</th>
+<th>College</th>
+<th>Year</th>
+<th>CGPA</th>
+</tr>
+
+<tr>
+<td>B.E</td>
+<td>KPR Institute of Engineering and Technology</td>
+<td>2026</td>
+<td>9.14</td>
+</tr><br><br>
+
+<tr>
+<td>12th</td>
+<td>Bharathi International Senior Secondary School</td>
+<td>2022</td>
+<td>77.2%</td><br><br><br>
+</tr>
+
+</table>
+
+</section>
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="grid">
+
+<div>
+<h3>Programming</h3>
+
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>Python</li>
+</ul>
+
+</div>
+
+<div>
+
+<h3>Tools</h3>
+
+<ol>
+<li>VS Code</li>
+<li>Git</li>
+<li>GitHub</li>
+<li>Figma</li>
+</ol>
+
+</div>
+
+</div>
+
+<h3>Skill Levels</h3>
+
+<label>HTML</label>
+<progress value="95" max="100"></progress>
+
+<label>CSS</label>
+<progress value="90" max="100"></progress>
+
+<label>JavaScript</label>
+<progress value="80" max="100"></progress>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="cards">
+
+<article class="card">
+<h3>Portfolio Website</h3>
+<p>Personal responsive portfolio.</p>
+</article>
+
+<article class="card">
+<h3>Weather App</h3>
+<p>Weather Forecast Project.</p>
+</article>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<h2>Gallery</h2>
+
+<figure>
+
+<img src="profile.jpg" alt="Project">
+
+<figcaption>My Profile</figcaption>
+
+</figure>
+
+<video controls width="350">
+
+<source src="video.mp4">
+
+</video>
+
+<br><br>
+
+<audio controls>
+
+<source src="audio.mp3">
+
+</audio>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Me</h2>
+
+<form>
+
+<label>Name</label>
+
+<input type="text" placeholder="Enter Name" required>
+
+<label>Email</label>
+
+<input type="email" placeholder="Enter Email">
+
+<label>Phone</label>
+
+<input type="tel">
+
+<label>DOB</label>
+
+<input type="date">
+
+<label>Department</label>
+
+<select>
+
+<option>CSE</option>
+<option>ECE</option>
+<option>IT</option>
+
+</select>
+
+<label>Gender</label>
+
+<input type="radio" name="g">Male
+
+<input type="radio" name="g">Female
+
+<br><br>
+
+<label>Languages</label>
+
+<input type="checkbox">HTML
+
+<input type="checkbox">CSS
+
+<input type="checkbox">JavaScript
+
+<br><br>
+
+<textarea placeholder="Message"></textarea>
+
+<br>
+
+<input type="submit">
+
+<input type="reset">
+
+</form>
+
+</section>
+
+</main>
+
+<aside>
+
+<h3>Quick Links</h3>
+
+<ul>
+<li><a href="#">GitHub</a></li>
+<li><a href="#">LinkedIn</a></li>
+<li><a href="#">Instagram</a></li>
+</ul>
+
+</aside>
+
+<footer>
+
+<p>
+© 2026 Student Portfolio | Designed using HTML5 & CSS3
+</p>
+
+</footer>
+
+</body>
+
+</html>
